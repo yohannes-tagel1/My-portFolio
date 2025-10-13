@@ -6,6 +6,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+
+  
   background-color: #191735;
 
   font-synthesis: none;
@@ -13,8 +15,50 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+p{
+  color: gray;
+}
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+.pic{
+position: relative;
+
+}
+h2{
+  color: red;
+  
+}
+h3{
+  color: rgb(215, 224, 85);
+  /* font-size: 30px; */
+  overflow: hidden;
+  font-family: monospace;
+  border-right: 3px solid white;
+  white-space: nowrap;
+  animation: text 6s steps(32) infinite,
+  blink .8s step-end infinite
+
+}
+@keyframes text {
+  0% {width: 0;}
+  50% {width: 32ch;}
+  100% {width: 0;}
+}
+
+/* .textone{
+  font-family: monospace;
+  overflow: hidden;
+  border-right: 3px solid white;
+  font-size: 30px;
+  white-space: nowrap;
+  animation: textname 6s steps(26) infinite,
+             blink .8s step-end infinite;
+} */
+/* @keyframes textname {
+  0% {width: 0;}
+  50% {width: 32ch}
+  100% {width: 0}
+} */
